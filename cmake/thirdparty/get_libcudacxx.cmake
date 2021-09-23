@@ -31,4 +31,4 @@ function(find_and_configure_libcudacxx VERSION)
     install(DIRECTORY ${libcudacxx_SOURCE_DIR}/libcxx/include/ DESTINATION include/cuco/libcxx/include)
 endfunction()
 
-find_and_configure_libcudacxx(1.5.0)
+find_and_configure_libcudacxx(1.6.0-ea)
